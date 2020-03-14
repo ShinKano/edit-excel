@@ -1,0 +1,22 @@
+{
+  "name": "edit-cell-value",
+  "version": "1.0.0",
+  "description": "Edit a value in a cell.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm -test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShinKano/edit-excel.git"
+  },
+  "keywords": [
+    "excel"
+  ],
+  "author": "ShinKano <yushph@gmail.com> (https://qiita.com/ShinKano)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShinKano/edit-excel/issues"
+  },
+  "homepage": "https://github.com/ShinKano/edit-excel#readme"
+}
