@@ -1,11 +1,9 @@
 {
   "name": "edit-cell-value",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Edit a value in a cell.",
   "main": "index.js",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "bin": {
     "edit-cell-value": "index.js"
   },
