@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/ShinKano/edit-excel/issues"
   },
-  "homepage": "https://github.com/ShinKano/edit-excel#readme"
+  "homepage": "https://github.com/ShinKano/edit-excel#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "xlsx-populate": "^1.21.0"
+  }
 }
