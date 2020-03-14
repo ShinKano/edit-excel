@@ -12,13 +12,13 @@ function editExcel(){
 
   const fileList = getFileList();
 
-  console.log("These are your .xlsx files to be edited...")
+  console.log("以下の.xlsxファイルが変更の対象です...")
   console.log(fileList);
 
-  if (readlineSync.keyInYN('Please close the files to be edited...OK?')) {
-    const rowNum = readlineSync.questionInt('What is the ROW-NUMBER of the cell to be edited?');
-    const colNum = readlineSync.questionInt('What is the COLUMN-NUMBER of the cell to be edited?');
-    const changedValue = readlineSync.question('What is the VALUE to be put in the cell?');
+  if (readlineSync.keyInYN('変更するファイルは閉じてください...よろしいです?')) {
+    const rowNum = readlineSync.questionInt('変更するセルの【行番号】を数字で入力してください：');
+    const colNum = readlineSync.questionInt('変更するセルの【行番号】を数字で入力してください：');
+    const changedValue = readlineSync.question('セルに入力する値を入力してください：');
     // 'Y' key was pressed.
     fileList.forEach(file => {
       // Load an existing workbook
@@ -33,7 +33,7 @@ function editExcel(){
         })
         
         //write and save.
-        console.log(`***Done : ${file}***`)
+        console.log(`***完了しました🐒 : ${file}***`)
         return workbook.toFileAsync(file);
       });
     

@@ -4,10 +4,10 @@
   "description": "Edit a value in a cell.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    
   },
   "bin": {
-    "edit-cell": "index.js"
+    "edit-cell-value": "index.js"
   },
   "repository": {
     "type": "git",
