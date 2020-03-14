@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node index.js"
   },
+  "bin": {
+    "edit-cell": "index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ShinKano/edit-excel.git"

@@ -1,3 +1,8 @@
+#!/usr/bin/env node
+/*
+node.jsのスクリプトをコマンドラインツールとして動作させる
+ */
+
 const getFileList = require('./getFileList');
 const readlineSync = require('readline-sync');
 const XlsxPopulate = require('xlsx-populate');
