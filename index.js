@@ -40,4 +40,5 @@ function editExcel(){
   }
 
 }
+editExcel();
 module.exports = editExcel;

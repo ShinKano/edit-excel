@@ -18,5 +18,5 @@ It's recomended to back up your files just in case...
 ## RUN
 
 ```
-
+npm start
 ```

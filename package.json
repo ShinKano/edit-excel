@@ -4,7 +4,7 @@
   "description": "Edit a value in a cell.",
   "main": "index.js",
   "scripts": {
-    "test": "npm -test"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
